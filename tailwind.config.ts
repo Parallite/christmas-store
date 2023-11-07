@@ -7,12 +7,23 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    colors: {
+      "primary-green": "#062619",
+      "dark-green": "#051d13",
+      "primary-white": "#FDE8D8",
+      "primary-blue": '#090f19',
+      "primary-pink": '#fe2c40',
+      "secondary-pink": '#dfa9a4'
+    },
+    backgroundImage: {
+      "gradient-ribbon":
+        "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(254,44,64,1) 100%)",
+      "gradient-primary-bg":
+        "radial-gradient(circle, rgba(180,206,202,1) 0%, rgba(102,121,124,1) 100%)",
+      "christmas-dear":
+        "url('../../public/images/dear.jpg')",
+      "primary-bg":
+        "url('../../public/images/background.png')"
     },
   },
   plugins: [],
