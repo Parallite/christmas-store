@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { eczarFont } from '@/fonts/fonts'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { eczarFont } from '../../public/fonts/fonts'
 
 export const metadata: Metadata = {
-  title: 'Christmas gifts',
-  description: 'Christmas online shop hemo page',
+  title: 'Christmas gifts store',
+  description: 'Find the Christmas gifts in our online store. Creative decorations, lights, toys and fresh trees',
 }
 
 export default function RootLayout({

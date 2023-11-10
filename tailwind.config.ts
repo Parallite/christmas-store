@@ -21,7 +21,7 @@ const config: Config = {
       "gradient-primary-bg":
         "radial-gradient(circle, rgba(180,206,202,1) 0%, rgba(102,121,124,1) 100%)",
       "christmas-dear":
-        "url('../../public/images/dear.jpg')",
+        "url('@/images/dear.jpg')",
       "primary-bg":
         "url('../../public/images/background.png')"
     },

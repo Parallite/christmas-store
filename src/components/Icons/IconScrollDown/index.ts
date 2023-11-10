@@ -1,0 +1,1 @@
+export { IconScrollDown } from './IconScrollDown'

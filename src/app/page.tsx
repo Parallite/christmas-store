@@ -1,14 +1,14 @@
 import { GreetingBox } from "@/components/GreetingBox";
-import { hennyPennyFont } from "../../public/fonts/fonts";
+import { hennyPennyFont } from "@/fonts/fonts";
 import { Ribbon } from "@/components/Ribbon";
 import { MarketingCard } from "@/components/MarketingCard";
 
-import offerDecoration from '../../public/images/decorations/decoration.jpg'
-import offerTree from '../../public/images/trees/tree.jpg'
-import offerLights from '../../public/images/lights/lights.jpg'
-import offerToys from '../../public/images/toys/toys.jpg'
+import decoration from '@/images/decorations/decoration.jpg'
+import tree from '@/images/trees/tree.jpg'
+import lights from '@/images/lights/lights.jpg'
+import toys from '@/images/toys/toys.jpg'
 
-import deliverMan from '../../public/images/delivery/delivery.jpg'
+import deliverMan from '@/images/delivery/delivery.jpg'
 
 export default function Home() {
   
@@ -30,20 +30,20 @@ export default function Home() {
               <h2 className="lg:text-lg 2xl:text-3xl font-extrabold text-dark-green p-4 mb-10 uppercase">What we <span className="text-primary-pink">offer</span></h2>
               <div className="flex justify-between align-middle flex-col mb-10">
                 <div className="flex gap-x-8 mb-10">
-                  <MarketingCard img={offerDecoration} title={"decorations"} description={"decorations"} width={750} height={750} />
-                  <MarketingCard img={offerTree} title={"tree"} description={"tree"} width={750} height={750} />
+                  <MarketingCard img={decoration} title={"decorations"} description={"decorations"} width={750} height={750} />
+                  <MarketingCard img={tree} title={"tree"} description={"tree"} width={750} height={750} />
                 </div>
                 <div className="flex gap-x-8 mb-10">
-                  <MarketingCard img={offerLights} title={"lights"} description={"lights"} width={750} height={750} />
-                  <MarketingCard img={offerToys} title={"toys"} description={"toys"} width={750} height={750} />
+                  <MarketingCard img={lights} title={"lights"} description={"lights"} width={750} height={750} />
+                  <MarketingCard img={toys} title={"toys"} description={"toys"} width={750} height={750} />
                 </div>
               </div>
             </div>
             <div className="text-center">
               <h2 className="lg:text-lg 2xl:text-3xl font-extrabold text-dark-green p-4 mb-10 uppercase">Hot <span className="text-primary-pink">Deals</span></h2>
               <div className="flex justify-between align-middle gap-x-8 mb-10">
-                <MarketingCard img={offerLights} title={"lights"} description={""} width={750} height={750} />
-                <MarketingCard img={offerToys} title={"toys"} description={""} width={750} height={750} />
+                <MarketingCard img={lights} title={"lights"} description={""} width={750} height={750} />
+                <MarketingCard img={toys} title={"toys"} description={""} width={750} height={750} />
               </div>
             </div>
             <div className="text-center">

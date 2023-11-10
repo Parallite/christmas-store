@@ -4,3 +4,4 @@ export interface MenuLink {
 }
 
 export type MenuLinks = MenuLink[]
+
