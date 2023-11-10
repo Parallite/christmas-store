@@ -1,14 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
-import { Header } from '@/components/Header/Header'
-import { Footer } from '@/components/Footer/Footer'
-
-const inter = Inter({ subsets: ['latin'] })
+import { eczarFont } from '@/fonts/fonts'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Christmas shop',
-  description: 'Christmas online shop',
+  title: 'Christmas gifts store',
+  description: 'Find the Christmas gifts in our online store. Creative decorations, lights, toys and fresh trees',
 }
 
 export default function RootLayout({
@@ -18,10 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className='flex justify-between flex-col min-h-screen'>
+      <body className={eczarFont.className}>
+        <div className='relative flex justify-between flex-col bg-gradient-primary-bg'>
           <Header />
-          <main>
+          <main className='bg-primary-bg'>
             {children}
           </main>
           <Footer />
